@@ -1,7 +1,7 @@
 package com.vagner.barbearia.enums;
 
-public enum PerfilTipo {
+public enum PerfilEnum {
     ADMIN,
-    BARBEIRO,
+    PROFISSIONAL,
     CLIENTE
 }

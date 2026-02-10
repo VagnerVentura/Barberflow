@@ -21,7 +21,7 @@ public class Profissional {
     private Long id;
 
     @OneToOne
-    @JoinColumn(name = "ID_USUARIO", unique = true)
+    @JoinColumn(name = "ID_USUARIO", nullable = false, unique = true)
     private Usuario usuario;
 
     @Column(name = "NM_PROFISSIONAL", length = 100)

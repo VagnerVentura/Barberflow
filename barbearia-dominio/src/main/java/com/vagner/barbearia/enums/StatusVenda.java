@@ -1,4 +1,8 @@
 package com.vagner.barbearia.enums;
 
 public enum StatusVenda {
+    ABERTA,
+    FINALIZADA,
+    CANCELADA
 }
+
